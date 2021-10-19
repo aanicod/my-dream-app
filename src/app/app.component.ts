@@ -11,4 +11,9 @@ export class AppComponent {
       "August", "September", "October", "November", "December"]; 
    
    isavailable = true;
+   myClickFunction(event)
+   {
+     alert("Button is clicked");
+     
+   }
 }
