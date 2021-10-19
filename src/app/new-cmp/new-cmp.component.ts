@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new-cmp.component.css']
 })
 export class NewCmpComponent implements OnInit {
-
+  newcomponent = "Entered in new component created";
   constructor() { }
 
   ngOnInit(): void {
